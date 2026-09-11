@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RemitCompare — Compara comisiones de envío de dinero y criptomonedas</title>
+    <meta name="description" content="Compara plataformas para enviar dinero internacional y criptomonedas. Calcula el costo total, tipo de cambio y comisiones de Wise, Remitly, Binance, Coinbase y más." />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💱</text></svg>" />
+    <style>
+      html, body { margin: 0; padding: 0; width: 100%; height: 100%; }
+      html.light, html.light body { background-color: #f8fafc !important; color: #0f172a; }
+      html.dark, html.dark body { background-color: #0f172a !important; color: #f1f5f9; }
+    </style>
+    <script>
+      (function () {
+        const isInIframe = window.self !== window.top;
+        function applyThemeToDOM(theme) {
+          document.documentElement.classList.remove("light", "dark");
+          document.documentElement.classList.add(theme);
+          document.documentElement.setAttribute("data-theme", theme);
+        }
+        if (isInIframe) {
+          window.addEventListener("message", function (event) {
+            if (event.data && typeof event.data.theme === "string") {
+              const theme = event.data.theme;
+              if (theme === "light" || theme === "dark") {
+                applyThemeToDOM(theme);
+              }
+            }
+          });
+        }
+        const saved = localStorage.getItem("theme");
+        if (saved) { applyThemeToDOM(saved); }
+        else { applyThemeToDOM("light"); }
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-7jvfrBVj.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DN6bZwTn.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
