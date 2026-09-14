@@ -3,7 +3,7 @@ import { fetchCryptoPrices, fetchExchangeRates } from './services/api';
 import AdsterraAd from './components/AdsterraAd';
 
 // Configuración de Adsterra - REEMPLAZA CON TUS CÓDIGOS
-const ADSTERRA_BANNER_KEY = 'TU_BANNER_KEY_AQUI';
+const ADSTERRA_BANNER_KEY = 'c9ce55fa7fb1042d512cd43b70a31287';
 
 // Datos de demostración
 const demoCryptoData = [
