@@ -42,7 +42,7 @@ export default function AdsterraAd({ adCode, width = 728, height = 90, className
         // Crear script de invoke
         const script = document.createElement('script');
         script.type = 'text/javascript';
-        script.src = `//www.effectivecreativeformat.com/${atOptions.key}/invoke.js`;
+        script.src = `//www.highperformancedformats.com`/${atOptions.key}/invoke.js`;
 
         // Añadir ambos scripts al contenedor
         bannerRef.current.append(conf);
