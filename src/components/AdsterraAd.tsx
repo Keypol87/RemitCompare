@@ -77,6 +77,7 @@ export default function AdsterraAd({ adCode, width = 728, height = 90, className
           <p className="text-xs text-slate-500 dark:text-slate-500">
             Configura tu código de Adsterra en App.tsx
           </p>
+           </div>
           </div>
         </div>
       </div>
