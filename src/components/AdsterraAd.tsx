@@ -11,7 +11,7 @@ export default function AdsterraAd({ adCode, width = 728, height = 90, className
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (!containerRef.current || !adCode || adCode === 'TU_BANNER_KEY_AQUI') return;
+    if (!containerRef.current || !adCode || adCode === ADSTERRA_BANNER_KEY) return;
 
     // Limpiar contenido anterior
     containerRef.current.innerHTML = '';
