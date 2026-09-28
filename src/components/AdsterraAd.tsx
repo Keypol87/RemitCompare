@@ -11,7 +11,7 @@ export default function AdsterraAd({ adCode, width = 728, height = 90, className
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (!containerRef.current || !adCode || adCode === ADSTERRA_BANNER_KEY) return;
+    if (!containerRef.current || !adCode || adCode === 'c9ce55fa7fb1042d512cd43b70a31287') return;
 
     // Limpiar contenido anterior
     containerRef.current.innerHTML = '';
@@ -44,7 +44,7 @@ export default function AdsterraAd({ adCode, width = 728, height = 90, className
   }, [adCode, width, height]);
 
   // Si no hay código configurado, mostrar placeholder
-  if (!adCode || adCode === ADSTERRA_BANNER_KEY) {
+  if (!adCode || adCode === 'c9ce55fa7fb1042d512cd43b70a31287') {
     return (
       <div className={`min-h-[${height}px] bg-slate-100 dark:bg-slate-800 rounded-lg border-2 border-dashed border-slate-300 dark:border-slate-600 flex items-center justify-center ${className}`}>
         <div className="text-center p-4">
