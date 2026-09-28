@@ -2,20 +2,8 @@ import { useState, useEffect } from 'react';
 import { fetchCryptoPrices, fetchExchangeRates } from './services/api';
 import AdsterraAd from './components/AdsterraAd';
 
-// ============================================
-// CONFIGURACIÓN DE ADSTERRA
-// ============================================
-// INSTRUCCIONES:
-// 1. Ve a https://publishers.adsterra.com
-// 2. Crea un banner 728x90
-// 3. Copia el código JavaScript
-// 4. Extrae solo el valor de 'key' (ej: 'abc123def456...')
-// 5. Reemplaza 'TU_BANNER_KEY_AQUI' con tu key real
-// 
-// Ejemplo:
-// const ADSTERRA_BANNER_KEY = 'abc123def456...';
-// ============================================
-const ADSTERRA_BANNER_KEY = 'TU_BANNER_KEY_AQUI';
+
+const ADSTERRA_BANNER_KEY = 'c9ce55fa7fb1042d512cd43b70a31287';
 
 // Datos de demostración
 const demoCryptoData = [
