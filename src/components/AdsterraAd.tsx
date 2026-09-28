@@ -78,10 +78,7 @@ export default function AdsterraAd({ adCode, width = 728, height = 90, className
             Configura tu código de Adsterra en App.tsx
           </p>
           <div className="mt-3 p-2 bg-amber-50 dark:bg-amber-900/20 rounded text-xs text-amber-700 dark:text-amber-400">
-            <strong>Instrucciones:</strong><br />
-            1. Ve a src/App.tsx<br />
-            2. Busca: ADSTERRA_BANNER_KEY<br />
-            3. Reemplaza con tu key real
+            
           </div>
         </div>
       </div>
