@@ -6,7 +6,16 @@ interface AdsterraAdProps {
   height?: number;
   className?: string;
 }
-
+<script>
+  atOptions = {
+    'key' : 'c9ce55fa7fb1042d512cd43b70a31287',
+    'format' : 'iframe',
+    'height' : 90,
+    'width' : 728,
+    'params' : {}
+  };
+</script>
+<script src="https://www.highrevenueformat.com/c9ce55fa7fb1042d512cd43b70a31287/invoke.js"></script>
 /**
  * Componente de anuncios Adsterra
  * Implementación correcta basada en: https://stackoverflow.com/a/75569861
