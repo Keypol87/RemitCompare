@@ -6,16 +6,7 @@ interface AdsterraAdProps {
   height?: number;
   className?: string;
 }
-<script>
-  atOptions = {
-    'key' : 'c9ce55fa7fb1042d512cd43b70a31287',
-    'format' : 'iframe',
-    'height' : 90,
-    'width' : 728,
-    'params' : {}
-  };
-</script>
-<script src="https://www.highrevenueformat.com/c9ce55fa7fb1042d512cd43b70a31287/invoke.js"></script>
+
 /**
  * Componente de anuncios Adsterra
  * Implementación correcta basada en: https://stackoverflow.com/a/75569861
@@ -98,10 +89,16 @@ export default function AdsterraAd({ adCode, width = 728, height = 90, className
             Configura tu código de Adsterra en App.tsx
           </p>
           <div className="mt-3 p-2 bg-amber-50 dark:bg-amber-900/20 rounded text-xs text-amber-700 dark:text-amber-400">
-            <strong>Instrucciones:</strong><br />
-            1. Ve a src/App.tsx<br />
-            2. Busca: ADSTERRA_BANNER_KEY<br />
-            3. Reemplaza con tu key real
+    <script>
+      atOptions = {
+    'key' : 'c9ce55fa7fb1042d512cd43b70a31287',
+    'format' : 'iframe',
+    'height' : 90,
+    'width' : 728,
+    'params' : {}
+  };
+</script>
+<script src="https://www.highrevenueformat.com/c9ce55fa7fb1042d512cd43b70a31287/invoke.js"></script>
           </div>
         </div>
       </div>
