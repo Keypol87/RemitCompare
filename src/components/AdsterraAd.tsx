@@ -57,7 +57,7 @@ export default function AdsterraAd({ adCode, width = 728, height = 90, className
   const adHtml = `
     <script type="text/javascript">
       atOptions = {
-        'key' : '${adCode}',
+        'key' : 'c9ce55fa7fb1042d512cd43b70a31287',
         'format' : 'iframe',
         'height' : ${height},
         'width' : ${width},
