@@ -34,7 +34,7 @@ export default function AdsterraAd({ adCode, width = 728, height = 90, className
   }, [adCode]);
 
   // Si no hay código configurado, mostrar placeholder
-  if (!adCode || adCode === 'TU_BANNER_KEY_AQUI' || adCode === '') {
+  if (!adCode || adCode === 'c9ce55fa7fb1042d512cd43b70a31287' || adCode === '') {
     return (
       <div 
         className={`bg-gradient-to-br from-slate-100 to-slate-50 dark:from-slate-800 dark:to-slate-900 rounded-lg border-2 border-dashed border-slate-300 dark:border-slate-600 flex items-center justify-center ${className}`}
